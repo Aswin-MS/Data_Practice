@@ -1,0 +1,16 @@
+import numpy as np
+a=np.array([[1,2,3],[3,4,5],[5,4,3]])
+b=np.array([[2,4,6],[3,2,1],[1,1,1]])
+#Addition
+# c=np.add(a,b)
+# print(c)
+# d=np.subtract(b,a)
+# print(d)
+# e=np.multiply(a,b)
+# print(e)
+f=np.divide(a,b)
+print(f)
+g=np.square(a)
+print(g)
+h=np.sqrt(a)
+print(h)

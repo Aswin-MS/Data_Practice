@@ -1,0 +1,6 @@
+'''
+#Zero
+#One
+#Full
+#Identity
+'''
