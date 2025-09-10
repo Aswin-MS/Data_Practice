@@ -1,0 +1,12 @@
+import numpy as np
+a=np.array([[1,2,3,4,5],[4,3,5,6,4],[5,1,2,1,3],[1,6,8,9,2]])
+print(a)
+print()
+# b=a.reshape(5,4)
+# print(b)
+# c=a.reshape(2,10)
+# print(c)
+# d=a.reshape(1,5,4)
+# print(d)
+e=a.reshape(20)
+print(e)
