@@ -9,7 +9,7 @@ lst=([[101,'aswin','ms',22,'python',20000,'kochi'],
       [107,'alan','g',24,'python',26000,'calicut']])
 df=pd.DataFrame(lst)
 df.columns=['id','fname','lname','age','prof','salary','loc']
-print(df)
+# print(df)
 
 
 # print(df.ndim)
@@ -18,4 +18,11 @@ print(df)
 # print(df.dtypes)
 # print(df.head())
 # print(df.tail())
-print(df.describe(include='all'))
+# print(df.describe(include='all'))
+#17 SEPT
+df['gender']=['M','M','M','M','M','M','M']
+df['company_name']=['TCS','EY','Wipro','TCS','EY','Amazon','KPMG']
+print(df)
+print('*'*100)
+dfnew=df.drop(['salary'],axis=1)
+print(dfnew)
