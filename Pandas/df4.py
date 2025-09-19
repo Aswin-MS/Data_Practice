@@ -18,6 +18,13 @@ print('*'*100)
 # print(y)
 
 #17 SEPT:
-print(c.isna().sum())
-df1=c.fillna('india')
-print(df.isna().sum())
+# print(c.isna().sum())
+# df1=c.fillna('india')
+# print(df.isna().sum())
+
+#19 SEPT:
+co=c.loc[c['loc']=='india'].groupby('prof') ['prof'].count().sort_values(ascending=False)
+print(co)
+print('*'*100)
+co1=c.loc[(c['loc']=='uk')&(c['age']>30)].groupby('prof') ['prof'].count().sort_values(ascending=False)
+print(co1)
